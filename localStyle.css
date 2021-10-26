@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeecec;
+}
+
+.far,
+.fas {
+    color: rgb(88, 88, 88);
+    font-size: 1.7rem;
+    margin-left: auto;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.fa-camera {
+    border: 0.01rem solid rgb(215, 221, 219);
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(215, 221, 219);
+}
+
+.nav-right-con {
+    display: flex;
+    justify-content: end;
+}
+
+.custom-container {
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+    align-items: center;
+    box-shadow: 0 0.5rem 0.5rem rgb(65 81 64 / 40%);
+    background-color: #fff;
+}
+
+.navbar-brand{
+    background-color: #fff;
+    padding: 01rem;
+    border-radius: 0.5rem;
+}
+.custom-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer */
+.footer-center{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-comment-dots{
+    box-shadow: 0 0.5rem 0.5rem rgb(65 81 64 / 40%);
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+}
